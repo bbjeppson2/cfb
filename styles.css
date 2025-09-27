@@ -95,5 +95,10 @@ legend{
 @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .utube{
         display: block;
+        align-items: center;
+    }
+    .appbtns{
+        display: block;
+        align-items: center;
     }
 }
