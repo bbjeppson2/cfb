@@ -12,7 +12,7 @@ youtubeVid{
 .cfb{
     background-color: rgb(48, 122, 122);
 }
-h2, legend{
+legend{
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     font-weight: 800;
@@ -20,6 +20,13 @@ h2, legend{
     text-shadow: 4px 4px 10px black;
 }
 
+#rowd h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    color: white;
+    text-shadow: 4px 4px 10px black;
+}
 .cfbnav ul{
     list-style-type: none;
 }
@@ -28,12 +35,12 @@ h2, legend{
 }
 .cfbbtn{
     margin: 1em 0 0 0;
-    height: 11em;
 }
 
 .cfbnav ul li a{
     font-size: 1.25em;
     font-weight: 600;
+    color: aliceblue;
  }
 
 .appbtns{
@@ -60,9 +67,6 @@ h2, legend{
     font-weight: 500;
 }
 
-#google-btn{
-    background: url(GooglePlay.png);
-}
 
 /*
 @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
